@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>ScreenCast</AssemblyName>
+    <RootNamespace>ScreenCast</RootNamespace>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Assets\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- H.264 解码（FFmpeg.AutoGen + 原生 dll） -->
+    <PackageReference Include="FFmpeg.AutoGen" Version="7.0.0" />
+    <!-- 提供原生 ffmpeg dll（avcodec/avutil/swscale 等） -->
+    <PackageReference Include="Sdcb.FFmpeg.runtime.windows-x64" Version="7.1.0" />
+    <!-- 音频播放 -->
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 将包内的原生 dll 复制到输出目录 ffmpeg/ 下 -->
+    <None Include="$(NuGetPackageRoot)sdcb.ffmpeg.runtime.windows-x64\7.1.0\runtimes\win-x64\native\*.dll"
+          Link="ffmpeg\%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,67 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Material Design 3 基线色板（Light 主题） -->
+    <Color x:Key="MD3.Primary">#6750A4</Color>
+    <Color x:Key="MD3.OnPrimary">#FFFFFF</Color>
+    <Color x:Key="MD3.PrimaryContainer">#EADDFF</Color>
+    <Color x:Key="MD3.OnPrimaryContainer">#21005D</Color>
+    <Color x:Key="MD3.Secondary">#625B71</Color>
+    <Color x:Key="MD3.OnSecondary">#FFFFFF</Color>
+    <Color x:Key="MD3.SecondaryContainer">#E8DEF8</Color>
+    <Color x:Key="MD3.OnSecondaryContainer">#1D192B</Color>
+    <Color x:Key="MD3.Tertiary">#7D5260</Color>
+    <Color x:Key="MD3.OnTertiary">#FFFFFF</Color>
+    <Color x:Key="MD3.TertiaryContainer">#FFD8E4</Color>
+    <Color x:Key="MD3.OnTertiaryContainer">#31111D</Color>
+    <Color x:Key="MD3.Error">#B3261E</Color>
+    <Color x:Key="MD3.OnError">#FFFFFF</Color>
+    <Color x:Key="MD3.ErrorContainer">#F9DEDC</Color>
+    <Color x:Key="MD3.OnErrorContainer">#410E0B</Color>
+    <Color x:Key="MD3.Surface">#FEF7FF</Color>
+    <Color x:Key="MD3.OnSurface">#1D1B20</Color>
+    <Color x:Key="MD3.OnSurfaceVariant">#49454F</Color>
+    <Color x:Key="MD3.SurfaceVariant">#E7E0EC</Color>
+    <Color x:Key="MD3.Outline">#79747E</Color>
+    <Color x:Key="MD3.OutlineVariant">#CAC4D0</Color>
+    <Color x:Key="MD3.SurfaceContainerLow">#F7F2FA</Color>
+    <Color x:Key="MD3.SurfaceContainer">#F3EDF7</Color>
+    <Color x:Key="MD3.SurfaceContainerHigh">#ECE6F0</Color>
+    <Color x:Key="MD3.SurfaceContainerHighest">#E6E0E9</Color>
+    <Color x:Key="MD3.InverseSurface">#322F35</Color>
+    <Color x:Key="MD3.InverseOnSurface">#F5EFF7</Color>
+    <Color x:Key="MD3.Shadow">#000000</Color>
+
+    <!-- 便捷画刷 -->
+    <SolidColorBrush x:Key="Brush.Primary" Color="{StaticResource MD3.Primary}" />
+    <SolidColorBrush x:Key="Brush.OnPrimary" Color="{StaticResource MD3.OnPrimary}" />
+    <SolidColorBrush x:Key="Brush.PrimaryContainer" Color="{StaticResource MD3.PrimaryContainer}" />
+    <SolidColorBrush x:Key="Brush.OnPrimaryContainer" Color="{StaticResource MD3.OnPrimaryContainer}" />
+    <SolidColorBrush x:Key="Brush.Secondary" Color="{StaticResource MD3.Secondary}" />
+    <SolidColorBrush x:Key="Brush.SecondaryContainer" Color="{StaticResource MD3.SecondaryContainer}" />
+    <SolidColorBrush x:Key="Brush.OnSecondaryContainer" Color="{StaticResource MD3.OnSecondaryContainer}" />
+    <SolidColorBrush x:Key="Brush.Tertiary" Color="{StaticResource MD3.Tertiary}" />
+    <SolidColorBrush x:Key="Brush.Error" Color="{StaticResource MD3.Error}" />
+    <SolidColorBrush x:Key="Brush.ErrorContainer" Color="{StaticResource MD3.ErrorContainer}" />
+    <SolidColorBrush x:Key="Brush.OnErrorContainer" Color="{StaticResource MD3.OnErrorContainer}" />
+    <SolidColorBrush x:Key="Brush.Surface" Color="{StaticResource MD3.Surface}" />
+    <SolidColorBrush x:Key="Brush.OnSurface" Color="{StaticResource MD3.OnSurface}" />
+    <SolidColorBrush x:Key="Brush.OnSurfaceVariant" Color="{StaticResource MD3.OnSurfaceVariant}" />
+    <SolidColorBrush x:Key="Brush.SurfaceVariant" Color="{StaticResource MD3.SurfaceVariant}" />
+    <SolidColorBrush x:Key="Brush.Outline" Color="{StaticResource MD3.Outline}" />
+    <SolidColorBrush x:Key="Brush.OutlineVariant" Color="{StaticResource MD3.OutlineVariant}" />
+    <SolidColorBrush x:Key="Brush.SurfaceContainerLow" Color="{StaticResource MD3.SurfaceContainerLow}" />
+    <SolidColorBrush x:Key="Brush.SurfaceContainer" Color="{StaticResource MD3.SurfaceContainer}" />
+    <SolidColorBrush x:Key="Brush.SurfaceContainerHigh" Color="{StaticResource MD3.SurfaceContainerHigh}" />
+    <SolidColorBrush x:Key="Brush.SurfaceContainerHighest" Color="{StaticResource MD3.SurfaceContainerHighest}" />
+    <SolidColorBrush x:Key="Brush.InverseSurface" Color="{StaticResource MD3.InverseSurface}" />
+    <SolidColorBrush x:Key="Brush.InverseOnSurface" Color="{StaticResource MD3.InverseOnSurface}" />
+
+    <!-- 通用语义色 -->
+    <SolidColorBrush x:Key="Brush.WindowBackground" Color="{StaticResource MD3.SurfaceContainerLow}" />
+    <SolidColorBrush x:Key="Brush.CardBackground" Color="{StaticResource MD3.Surface}" />
+    <SolidColorBrush x:Key="Brush.TextPrimary" Color="{StaticResource MD3.OnSurface}" />
+    <SolidColorBrush x:Key="Brush.TextSecondary" Color="{StaticResource MD3.OnSurfaceVariant}" />
+    <SolidColorBrush x:Key="Brush.Divider" Color="{StaticResource MD3.OutlineVariant}" />
+
+</ResourceDictionary>
