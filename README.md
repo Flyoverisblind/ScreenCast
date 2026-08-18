@@ -21,6 +21,9 @@
 ---
 
 ## 📸 界面示意
+<img width="1226" height="753" alt="image" src="https://github.com/user-attachments/assets/cf7eb4f4-6f8d-4156-8945-58cbdc8de1dd" />
+<img width="415" height="914" alt="image" src="https://github.com/user-attachments/assets/c8d824ed-8179-409c-99cf-575adcbe35a8" />
+
 
 ```
 ┌─ 主窗口（控制面板）───────────────────────────┐   ┌─ 独立投屏窗口 ───────────┐
